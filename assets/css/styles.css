@@ -353,6 +353,24 @@ a {
     padding: 65px 0 189px;
 }
 
+.courses-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.courses__desc {
+    width: 525px;
+}
+
+.courses-link {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    text-decoration-line: underline;
+    color: #1ebfc1;
+}
+
 .courses__list {
     margin-top: 79px;
     display: grid;
