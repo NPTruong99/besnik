@@ -364,15 +364,25 @@ a {
     position: relative;
 }
 
-.courses__item:hover .courses__item-image {
-    opacity: 1;
+.courses__item:hover .courses__item-overlay {
+    opacity: 0;
 }
 
 .courses__item-image {
-    background: #d0efed;
-    opacity: 0.35;
+    position: relative;
     border-radius: 8px;
     overflow: hidden;
+}
+
+.courses__item-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.35;
+    background: #d0efed;
+    transition: 0.25s linear;
 }
 
 .courses__item-img {
@@ -450,4 +460,32 @@ a {
     top: 7px;
     border-radius: 50%;
     background: #1ebfc1;
+}
+
+.statistics {
+    padding: 200px 0;
+}
+
+.statistics-list {
+    width: 862px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.statistics-quantity {
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #0d1111;
+}
+
+.statistics-name {
+    margin-top: 12px;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #767e7e;
 }
