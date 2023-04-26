@@ -507,3 +507,143 @@ a {
     text-align: center;
     color: #767e7e;
 }
+
+/* Feedback */
+.feedback {
+    padding: 65px 0 137px;
+}
+
+.feedback-container {
+    display: flex;
+}
+
+.feedback__info {
+    width: 36%;
+}
+
+.feedback__info-icon {
+    display: block;
+    padding-top: 37px;
+}
+
+.feedback__info-desc {
+    margin-top: 27px;
+    font-size: 3.2rem;
+    line-height: 1.5;
+    color: #5d6564;
+}
+
+.feedback__info-name {
+    margin-top: 33px;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #070707;
+}
+
+.feedback__info-job {
+    font-weight: 400;
+    color: #767e7e;
+}
+
+.feedback__control {
+    margin-top: 52px;
+    display: flex;
+    column-gap: 30px;
+}
+
+.feedback__control-prev,
+.feedback__control-next {
+    background: #2ac9bf;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.feedback__control-next {
+    transform: rotate(180deg);
+}
+
+.feedback__images {
+    position: relative;
+    width: 58%;
+    margin-left: 6%;
+}
+
+.feedback__image:first-child {
+    position: absolute;
+    top: 107px;
+    right: 171px;
+    bottom: 139px;
+    width: 235px;
+    height: 235px;
+    background: #ff8282;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.feedback__image:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 144px;
+    width: 92px;
+    height: 92px;
+    background: #1ebfc1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.feedback__image:nth-child(3) {
+    position: absolute;
+    top: 19px;
+    right: 0;
+    width: 110px;
+    height: 110px;
+    background: #bf83ff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.feedback__image:nth-child(4) {
+    position: absolute;
+    top: 258px;
+    left: 0;
+    width: 78px;
+    height: 78px;
+    background: #ffc147;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.feedback__image:nth-child(5) {
+    position: absolute;
+    bottom: 0;
+    left: 212px;
+    top: 403px;
+    width: 78px;
+    height: 78px;
+    background: #ff947a;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.feedback__image:nth-child(6) {
+    position: absolute;
+    bottom: 29px;
+    right: 32px;
+    top: 374px;
+    width: 92px;
+    height: 92px;
+    background: #b1dfdc;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.feedback__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
